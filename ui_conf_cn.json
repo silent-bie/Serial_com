@@ -1,0 +1,64 @@
+{
+	"windows_title": "串口调试软件",
+	"uiconf_ver":1.0,
+	"com_status":["断开连接","连接","调试中","错误"],
+	"meun":["文件","编辑"],
+	"toolbar":{
+		"COM":["打开串口","关闭串口","刷新串口"],
+		"CTRL":["清空","显示工具"]
+	},
+	"SEND_buton":"发送",
+	"copy_buton":"复制",
+	"paste_buton":"粘贴",
+	"EXEC_buton":"执行",
+	"COM_Config":{
+		"Group":"串口设置",
+		"PORT":{
+			"name":"端口"
+		},
+		"BURD":{
+			"name":"波特率",
+			"list":[1200,2400,4800,9600,19200,38400,57600,115200,230400],
+			"default":7
+		},
+		"DATA BIT":{
+			"name":"数据位",
+			"list":[5,6,7,8],
+			"default":3
+		},
+		"ERC BIT":{
+			"name":"校验位",
+			"list":["None", "Even", "Odd", "Mark", "Space"],
+			"default":0
+		},
+		"STOP BIT":{
+			"name":"停止位",
+			"list":[1, 1.5, 2],
+			"default":0
+		},
+		"FLOW BIT":{
+			"name":"流控",
+			"list":["None", "RTS/CTS", "XON/XOFF"],
+			"default":0
+		}
+	},
+	"RECV_Config":{
+		"Group":"接收设置",
+		"list":["自动换行","显示日志","显示发送","显示长度","显示时间","自动滚动"],
+		"default":[1,0,0,0,0,1]
+	},
+	"SEND_Config":{
+		"Group":"发送设置",
+		"list":["自动重发","发送换行符"],
+		"default":[0,0]
+	},
+	"BUTTON":{
+		"Group":"调试",
+		"list":["确定","调试","取消"]
+	},
+	"TOOL":{
+		"Group":"工具",
+		"num":20,
+		"button":"发送"
+	}
+}

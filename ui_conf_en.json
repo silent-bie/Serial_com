@@ -1,0 +1,57 @@
+{
+	"windows_title": "COM DEBUG",
+	"uiconf_ver":1.0,
+	"com_status":["Disconnect","Connected","Debuging","Error"],
+	"meun":["File","Config"],
+	"SEND_buton":"Send",
+	"COM_Config":{
+		"Group":"COM Config",
+		"PORT":{
+			"name":"Port"
+		},
+		"BURD":{
+			"name":"Burd",
+			"list":[1200,2400,4800,9600,19200,38400,57600,115200],
+			"default":7
+		},
+		"DATA BIT":{
+			"name":"DATA BIT",
+			"list":[5,6,7,8],
+			"default":3
+		},
+		"ERC BIT":{
+			"name":"ERC BIT",
+			"list":["None", "Even", "Odd", "Mark", "Space"],
+			"default":0
+		},
+		"STOP BIT":{
+			"name":"STOP BIT",
+			"list":[1, 1.5, 2],
+			"default":0
+		},
+		"FLOW BIT":{
+			"name":"FLOW BIT",
+			"list":["None", "RTS/CTS", "XON/XOFF"],
+			"default":0
+		}
+	},
+	"RECV_Config":{
+		"Group":"RECV Config",
+		"list":["Auto trans line","Show Log","Show send data","Show data len","Show data time","Auto move Cursor"],
+		"default":[true,false,false,false,false,true]
+	},
+	"SEND_Config":{
+		"Group":"SEND Config",
+		"list":["Auto SEND","Auto ODOA"],
+		"default":[false,false]
+	},
+	"BUTTON":{
+		"Group":"DEBUG",
+		"list":["OK","DEBUG","Cancel"]
+	},
+	"TOOL":{
+		"Group":"Tool",
+		"num":20,
+		"button":"Send"
+	}
+}

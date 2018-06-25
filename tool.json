@@ -1,0 +1,84 @@
+{
+  "tool_conf": [
+    {
+      "name": "\u5168\u901a",
+      "text": "1all."
+    },
+    {
+      "name": "\u5168\u76f4\u901a",
+      "text": "all#."
+    },
+    {
+      "name": "\u5168\u5173",
+      "text": "all$."
+    },
+    {
+      "name": "\u901a",
+      "text": "1,2,3,4#."
+    },
+    {
+      "name": "\u5173",
+      "text": "1,2,3,4$."
+    },
+    {
+      "name": "\u9009\u901a",
+      "text": "17V1,2,3,4."
+    },
+    {
+      "name": "\u67e5\u8be2",
+      "text": "status."
+    },
+    {
+      "name": "\u4fdd\u5b58",
+      "text": "save1."
+    },
+    {
+      "name": "\u8c03\u7528",
+      "text": "recall1."
+    },
+    {
+      "name": "\u5220\u9664",
+      "text": "del1."
+    },
+    {
+      "name": "窗口列表",
+      "text": "win_list."
+    },
+    {
+      "name": "清除板卡flash",
+      "text": "clean_fpga."
+    },
+    {
+      "name": "清除矩阵flash",
+      "text": "clean_fllash."
+    },
+    {
+      "name": "pe",
+      "text": "pe1."
+    },
+    {
+      "name": "td",
+      "text": "td50."
+    },
+    {
+      "name": "\u4fe1\u606f",
+      "text": "value."
+    },
+    {
+      "name": "\u542f\u52a8",
+      "text": "starttime5."
+    },
+    {
+      "name": "\u4fdd\u5b58",
+      "text": "keeptime5."
+    },
+    {
+      "name": "\u7cfb\u7edf\u65f6\u95f4",
+      "text": "systemtime."
+    },
+    {
+      "name": "\u91cd\u542f",
+      "text": "restart."
+    }
+  ]
+}

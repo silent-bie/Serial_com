@@ -1,0 +1,1 @@
+CreateObject("WScript.Shell").Run "py Serial_main.py",0
