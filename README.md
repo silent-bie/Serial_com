@@ -1,2 +1,2 @@
 # Serial_com
-![](https://github.com/silent-bie/Serial_com/edit/master/cpu.ico) 
+![ico](https://github.com/silent-bie/Serial_com/blob/master/cpu.ico) 
